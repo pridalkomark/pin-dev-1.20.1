@@ -6,5 +6,21 @@
   "itemgroup.pindev_items" : "Items and Stuff",
 
   "block.pindev.steel_block" : "Packed Steel",
-  "block.pindev.raw_steel_block" : "Packed Raw Steel"
+  "block.pindev.raw_steel_block" : "Packed Raw Steel",
+
+  "block.pindev.steel_ore" : "Steel Ore",
+  "block.pindev.deepslate_steel_ore" : "Deepslate Steel Ore",
+  "block.pindev.nether_steel_ore" : "Hell-Forged Steel Ore",
+  "block.pindev.endstone_steel_ore" : "End Steel Ore",
+
+  "item.pindev.stuffed_can" : "Stuffed Can",
+  "item.pindev.steel_can" : "Steel Can",
+  "item.pindev.steel_sword" : "Steel Sword",
+  "item.pindev.steel_hoe" : "Steel Hoe",
+  "item.pindev.steel_axe" : "Steel Axe",
+  "item.pindev.steel_pickaxe" : "Steel Pickaxe",
+  "item.pindev.steel_shovel" : "Steel Showel",
+
+  "item.pindev.dino" : "Dino Nuget",
+  "item.pindev.raw_dino" : "Raw Dino"
 }

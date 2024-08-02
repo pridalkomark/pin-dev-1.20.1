@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "   ",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "pindev:steel_ingot"
+    }
+  },
+  "result" : {
+    "item": "pindev:steel_can"
+  }
+}

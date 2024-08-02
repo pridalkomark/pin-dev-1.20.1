@@ -1,0 +1,26 @@
+{
+  "item.pindev.dev_staff" : "Dev Staff",
+  "item.pindev.raw_steel" : "Nyers Aczél",
+  "item.pindev.steel_ingot" : "Aczél Rúd",
+
+  "itemgroup.pindev_items" : "Tárgyak meg Iyenek",
+
+  "block.pindev.steel_block" : "Tömöritett Aczél",
+  "block.pindev.raw_steel_block" : "Tömöritett Nyers Aczél",
+
+  "block.pindev.steel_ore" : "Aczél Érc",
+  "block.pindev.deepslate_steel_ore" : "Mélypala Aczél Érc",
+  "block.pindev.nether_steel_ore" : "Pokoli Aczél Érc",
+  "block.pindev.endstone_steel_ore" : "End Aczél Érc",
+
+  "item.pindev.stuffed_can" : "Tömött Konzerv",
+  "item.pindev.steel_can" : "Konzervdoboz",
+  "item.pindev.steel_sword" : "Aczél Kard",
+  "item.pindev.steel_hoe" : "Aczél Eke",
+  "item.pindev.steel_axe" : "Aczél Fejsze",
+  "item.pindev.steel_pickaxe" : "Aczél Csákány",
+  "item.pindev.steel_shovel" : "Aczél Ásó",
+
+  "item.pindev.dino" : "Dinó Falat",
+  "item.pindev.raw_dino" : "Nyers Dinó Falat"
+}

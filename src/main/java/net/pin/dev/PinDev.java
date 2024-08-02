@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.pin.dev.block.ModBlocks;
 import net.pin.dev.item.ModItemGroups;
 import net.pin.dev.item.ModItems;
+import net.pin.dev.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,5 +26,7 @@ public class PinDev implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlock();
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

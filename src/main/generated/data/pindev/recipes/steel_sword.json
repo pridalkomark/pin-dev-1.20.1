@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "pindev:steel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " R ",
+    " R ",
+    " S "
+  ],
+  "result": {
+    "item": "pindev:steel_sword"
+  },
+  "show_notification": true
+}

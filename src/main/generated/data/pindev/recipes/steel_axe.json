@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "pindev:steel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " RR",
+    " SR",
+    " S "
+  ],
+  "result": {
+    "item": "pindev:steel_axe"
+  },
+  "show_notification": true
+}

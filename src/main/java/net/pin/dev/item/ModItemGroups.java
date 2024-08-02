@@ -21,6 +21,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.RAW_STEEL_BLOCK);
 
+                        entries.add(ModBlocks.STEEL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_STEEL_ORE);
+                        entries.add(ModBlocks.NETHER_STEEL_ORE);
+                        entries.add(ModBlocks.ENDSTONE_STEEL_ORE);
+
+                        entries.add(ModItems.STEELCAN);
+                        entries.add(ModItems.STUFFEDCAN);
+
+                        entries.add(ModItems.STEELHOE);
+                        entries.add(ModItems.STEELPICKAXE);
+                        entries.add(ModItems.STEELAXE);
+                        entries.add(ModItems.STEELSWORD);
+                        entries.add(ModItems.STEELSHOVEL);
+
+                        entries.add(ModItems.DINO);
+                        entries.add(ModItems.RAW_DINO);
+
 
                     }).build());
 

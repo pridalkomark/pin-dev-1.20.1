@@ -1,0 +1,7 @@
+{
+  "replace" : false,
+  "values" : [
+    "pindev:raw_steel_block",
+    "pindev:steel_ore"
+  ]
+}
