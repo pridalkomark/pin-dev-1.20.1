@@ -1,0 +1,10 @@
+{
+  "item.pindev.dev_staff" : "Dev Staff",
+  "item.pindev.raw_steel" : "Raw Steel",
+  "item.pindev.steel_ingot" : "Steel Ingot",
+
+  "itemgroup.pindev_items" : "Items and Stuff",
+
+  "block.pindev.steel_block" : "Packed Steel",
+  "block.pindev.raw_steel_block" : "Packed Raw Steel"
+}

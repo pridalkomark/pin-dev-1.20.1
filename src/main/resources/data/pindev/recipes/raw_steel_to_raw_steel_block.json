@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pindev:raw_steel"
+    }
+  },
+  "result" : {
+    "item": "pindev:raw_steel_block"
+  }
+}
