@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 import net.minecraft.util.Identifier;
+import net.pin.dev.block.ModBlocks;
 import net.pin.dev.item.ModItems;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -28,7 +29,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" S ")
                 .input('S', Items.STICK)
                 .input('R', ModItems.STEELINGOT)
-                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.STEELINGOT), conditionsFromItem(ModItems.STEELINGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEELPICKAXE)));
 
@@ -38,7 +38,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" S ")
                 .input('S', Items.STICK)
                 .input('R', ModItems.STEELINGOT)
-                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.STEELINGOT), conditionsFromItem(ModItems.STEELINGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEELHOE)));
 
@@ -48,7 +47,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" S ")
                 .input('S', Items.STICK)
                 .input('R', ModItems.STEELINGOT)
-                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.STEELINGOT), conditionsFromItem(ModItems.STEELINGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEELAXE)));
 
@@ -58,7 +56,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" S ")
                 .input('S', Items.STICK)
                 .input('R', ModItems.STEELINGOT)
-                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.STEELINGOT), conditionsFromItem(ModItems.STEELINGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEELSHOVEL)));
 
@@ -68,9 +65,63 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" S ")
                 .input('S', Items.STICK)
                 .input('R', ModItems.STEELINGOT)
-                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.STEELINGOT), conditionsFromItem(ModItems.STEELINGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEELSWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPERPICKAXE, 1)
+                .pattern("RRR")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('R', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPERPICKAXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPERHOE, 1)
+                .pattern(" RR")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('R', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPERHOE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPERAXE, 1)
+                .pattern(" RR")
+                .pattern(" SR")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('R', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPERAXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPERSHOVEL, 1)
+                .pattern(" R ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('R', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPERSHOVEL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPERSWORD, 1)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('R', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPERSWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AIRCOMPRESSOR, 1)
+                .pattern(" B ")
+                .pattern(" R ")
+                .pattern(" S ")
+                .input('S', Items.LEATHER)
+                .input('R', ModItems.STEELCAN)
+                .input('B', ModBlocks.STEEL_BLOCK)
+                .criterion(hasItem(ModItems.STEELCAN), conditionsFromItem(ModItems.STEELCAN))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AIRCOMPRESSOR)));
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_DINO, 3)
                 .input(Items.CHICKEN)

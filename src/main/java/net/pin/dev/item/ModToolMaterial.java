@@ -1,13 +1,15 @@
 package net.pin.dev.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    STEEL(MiningLevels.DIAMOND, 800, 0f, 0f, 26, () -> Ingredient.ofItems(ModItems.STEELINGOT))
+    STEEL(MiningLevels.DIAMOND, 800, 4f, 0f, 26, () -> Ingredient.ofItems(ModItems.STEELINGOT)),
+    COPPER(MiningLevels.STONE, 300, 1f, 0f, 16, () -> Ingredient.ofItems(Items.COPPER_INGOT))
     ;
 
     private final int miningLevel;

@@ -1,0 +1,10 @@
+{
+  "indian_music": {
+    "sounds": [
+      {
+        "name": "pindev:indian_music",
+        "stream": true
+      }
+    ]
+  }
+}

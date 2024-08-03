@@ -38,6 +38,16 @@ public class ModItemGroups {
                         entries.add(ModItems.DINO);
                         entries.add(ModItems.RAW_DINO);
 
+                        entries.add(ModItems.COPPERHOE);
+                        entries.add(ModItems.COPPERPICKAXE);
+                        entries.add(ModItems.COPPERAXE);
+                        entries.add(ModItems.COPPERSWORD);
+                        entries.add(ModItems.COPPERSHOVEL);
+
+                        entries.add(ModItems.AIRCOMPRESSOR);
+
+                        //entries.add(ModItems.INDIANMUSICDISK);
+
 
                     }).build());
 

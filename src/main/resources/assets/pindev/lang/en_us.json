@@ -21,6 +21,17 @@
   "item.pindev.steel_pickaxe" : "Steel Pickaxe",
   "item.pindev.steel_shovel" : "Steel Showel",
 
+  "item.pindev.copper_sword" : "Copper Sword",
+  "item.pindev.copper_hoe" : "Copper Hoe",
+  "item.pindev.copper_axe" : "Copper Axe",
+  "item.pindev.copper_pickaxe" : "Copper Pickaxe",
+  "item.pindev.copper_shovel" : "Copper Showel",
+
   "item.pindev.dino" : "Dino Nuget",
-  "item.pindev.raw_dino" : "Raw Dino"
+  "item.pindev.raw_dino" : "Raw Dino",
+
+  "item.pindev.air_compressor" : "Air Compressor",
+
+  "item.pindev.indian_music_disk": "Indian Music Disc",
+  "item.pindev.indian_music_disk.desc": "Panjabi MC - Mundian To Bach Ke"
 }

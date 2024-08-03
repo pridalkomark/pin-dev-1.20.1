@@ -26,8 +26,18 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STEELSHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.STEELSWORD, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.COPPERHOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPERAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPERPICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPERSHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPERSWORD, Models.HANDHELD);
+
         itemModelGenerator.register(ModItems.DINO, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_DINO, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.AIRCOMPRESSOR, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.INDIANMUSICDISK, Models.GENERATED);
 
     }
 }

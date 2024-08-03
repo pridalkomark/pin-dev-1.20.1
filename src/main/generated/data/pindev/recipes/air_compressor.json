@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "pindev:steel_block"
+    },
+    "R": {
+      "item": "pindev:steel_can"
+    },
+    "S": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    " B ",
+    " R ",
+    " S "
+  ],
+  "result": {
+    "item": "pindev:air_compressor"
+  },
+  "show_notification": true
+}

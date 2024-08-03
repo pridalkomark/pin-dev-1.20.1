@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_ingot": {
+    "has_copper_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "pindev:steel_ingot"
+              "minecraft:copper_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:steel_shovel"
+        "recipe": "minecraft:copper_sword"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_steel_ingot",
+      "has_copper_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:steel_shovel"
+      "minecraft:copper_sword"
     ]
   },
   "sends_telemetry_event": false
