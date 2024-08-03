@@ -40,4 +40,5 @@ Dino Nuget is a food item made from cooking a Raw Dino, made from chicken.
 ### Technical stuff:
 * Steel Block tag
 * Magyar nyelv támogatás 🇭🇺
+
 ![kép_2024-08-03_090443032](https://github.com/user-attachments/assets/5e4322db-ff62-4f8a-b908-5bbdf92648e6)
