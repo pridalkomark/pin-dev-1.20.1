@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-03T16:58:22.1966692	Pin' Dev/Recipes
+// 1.20.1	2024-08-04T13:44:37.7593422	Pin' Dev/Recipes
 59a7e7321b1eed30022b06c2cdd0ca3fc03f695e data\pindev\advancements\recipes\misc\steel_shovel.json
 4106be187ebb1fcf441464384db726d7ffef2afa data\pindev\recipes\air_compressor.json
 f553165ae603085678270d3c5860ed2ac8ce2665 data\pindev\recipes\dino_from_smelting_raw_dino.json
@@ -10,8 +10,8 @@ f553165ae603085678270d3c5860ed2ac8ce2665 data\pindev\recipes\dino_from_smelting_
 5c1c14fb0455fce8dc4d5e3fc41d286d46c0a772 data\pindev\advancements\recipes\misc\copper_pickaxe.json
 e33a60ca2c335ed480798deb7db56e962f4d1139 data\pindev\advancements\recipes\misc\steel_sword.json
 faf2ab1da67740488bd9581cf64a36e765053742 data\pindev\recipes\copper_pickaxe.json
-efec6f58c9332b91a3825ebbf139a2981faf9e3f data\pindev\recipes\copper_axe.json
 83d4bc8900b77f79383b737759448eba66a66732 data\pindev\recipes\copper_hoe.json
+efec6f58c9332b91a3825ebbf139a2981faf9e3f data\pindev\recipes\copper_axe.json
 b9901ba1adec54029c657873055b23568200c0a7 data\pindev\advancements\recipes\misc\copper_hoe.json
 876e52764caf8aa4d6c10a88eba144667adcde23 data\pindev\advancements\recipes\misc\copper_axe.json
 9c30c9ba3116ffa5dead148778a6f91ef3ff4742 data\pindev\recipes\copper_sword.json
