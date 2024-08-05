@@ -41,6 +41,9 @@ public class ModBlocks {
     public static final Block URANBOMB = registerBlock("uran_bomb",
             new UranBombBlock(FabricBlockSettings.copyOf(Blocks.TNT)));
 
+    public static final Block URANINITEORE = registerBlock("uraninite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(4f)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(PinDev.MOD_ID, name), block);

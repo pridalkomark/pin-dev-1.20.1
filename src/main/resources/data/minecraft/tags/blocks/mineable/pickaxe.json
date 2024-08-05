@@ -4,6 +4,7 @@
     "pindev:steel_block",
     "pindev:raw_steel_block",
     "pindev:steel_ore",
-    "pindev:deepslate_steel_ore"
+    "pindev:deepslate_steel_ore",
+    "pindev:uraninite_ore"
   ]
 }

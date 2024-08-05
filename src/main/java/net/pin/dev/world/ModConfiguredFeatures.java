@@ -1,5 +1,8 @@
 package net.pin.dev.world;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.pin.dev.PinDev;
 import net.pin.dev.block.ModBlocks;
 import net.minecraft.registry.Registerable;
@@ -17,17 +20,22 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 import java.util.List;
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> STEEL_ORE_KEY = registerKey("steel_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> URAN_ORE_KEY = registerKey("uraninite_ore");
 
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context){
         RuleTest stoneReplacables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplacables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        RuleTest endReplacables = new BlockMatchRuleTest(Blocks.END_STONE);
 
         List<OreFeatureConfig.Target> overworldSteelOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplacables, ModBlocks.STEEL_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplacables, ModBlocks.DEEPSLATE_STEEL_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> endUranOres =
+                List.of(OreFeatureConfig.createTarget(endReplacables, ModBlocks.URANINITEORE.getDefaultState()));
 
         register(context, STEEL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldSteelOres, 10));
+        register(context, URAN_ORE_KEY, Feature.ORE, new OreFeatureConfig(endUranOres, 5));
 
     }
 

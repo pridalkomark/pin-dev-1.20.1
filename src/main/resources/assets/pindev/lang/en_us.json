@@ -32,7 +32,13 @@
 
   "item.pindev.air_compressor" : "Air Compressor",
 
+  "item.pindev.uran" : "Uran",
+
   "block.pindev.copper_bomb": "Copper Bomb",
   "block.pindev.diamond_bomb": "Diamond Bomb",
-  "block.pindev.uran_bomb": "Uran Bomb"
+  "block.pindev.uran_bomb": "Uran Bomb",
+
+  "block.pindev.uraninite_ore": "Uraninite Ore",
+
+  "effect.pindev.death": "Death"
 }

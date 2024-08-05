@@ -17,6 +17,8 @@ public class ModItems {
 
     public static final Item INDIANMUSICDISK = registerItem("indian_music_disk", new MusicDiscItem(7, ModSounds.INDIAN_MUSIC, new FabricItemSettings().maxCount(1), 236));
 
+    public static final Item URAN = registerItem("uran", new Item(new FabricItemSettings().food(ModFoodComponents.KILLFOOD)));
+
     public static final Item STEELINGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item RAWSTEEL = registerItem("raw_steel", new Item(new FabricItemSettings()));
     public static final Item STEELCAN = registerItem("steel_can", new Item(new FabricItemSettings()));

@@ -17,6 +17,7 @@ import java.util.List;
 
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> STEEL_ORE_PLACED_KEY = registerKey("steel_ore_placed");
+    public static final RegistryKey<PlacedFeature> URAN_ORE_PLACED_KEY = registerKey("uraninite_ore_placed");
 
 
     public static void bootstrap(Registerable<PlacedFeature> context){
@@ -24,6 +25,10 @@ public class ModPlacedFeatures {
 
         register(context, STEEL_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.STEEL_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(10,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+
+        register(context, URAN_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.URAN_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
     }
 

@@ -2,6 +2,7 @@
   "replace" : false,
   "values" : [
     "pindev:steel_block",
-    "pindev:deepslate_steel_ore"
+    "pindev:deepslate_steel_ore",
+    "pindev:uraninite_ore"
   ]
 }

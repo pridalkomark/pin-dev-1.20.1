@@ -50,6 +50,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIAMONDBOMB);
                         entries.add(ModBlocks.URANBOMB);
 
+                        entries.add(ModBlocks.URANINITEORE);
+
+                        entries.add(ModItems.URAN);
+
                         //entries.add(ModItems.INDIANMUSICDISK);
 
 

@@ -40,6 +40,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.INDIANMUSICDISK, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.URAN, Models.GENERATED);
+
     }
 
     /*public void generateBlockState(BlockStateModelGenerator blockStateModelGenerator) {

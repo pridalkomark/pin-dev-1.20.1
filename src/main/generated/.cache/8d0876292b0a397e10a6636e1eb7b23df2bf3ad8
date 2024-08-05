@@ -1,3 +1,5 @@
-// 1.20.1	2024-08-05T11:05:56.2901665	Pin' Dev/World Gen
+// 1.20.1	2024-08-05T17:25:34.1942788	Pin' Dev/World Gen
+14a1fda3118549f8c1174b4cacfa1c634e39b565 data\pindev\worldgen\placed_feature\uraninite_ore_placed.json
 6aa33e0fa593bf4ab8f104f406fdf827b8d627be data\pindev\worldgen\placed_feature\steel_ore_placed.json
 7a0b7ee56a06758eba9e54f19f90d5f631b979b3 data\pindev\worldgen\configured_feature\steel_ore.json
+4307d74331e7e9def67f70ec6b25b3e83590a526 data\pindev\worldgen\configured_feature\uraninite_ore.json

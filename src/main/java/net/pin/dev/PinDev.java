@@ -30,6 +30,8 @@ public class PinDev implements ModInitializer {
 
 		ModSounds.registerSounds();
 
+		//ModStatusEffects.registerModStatusEffects();
+
 		ModWorldGeneration.generateModWorldGen();
 	}
 }
