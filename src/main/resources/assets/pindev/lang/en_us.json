@@ -32,6 +32,7 @@
 
   "item.pindev.air_compressor" : "Air Compressor",
 
-  "item.pindev.indian_music_disk": "Indian Music Disc",
-  "item.pindev.indian_music_disk.desc": "Panjabi MC - Mundian To Bach Ke"
+  "block.pindev.copper_bomb": "Copper Bomb",
+  "block.pindev.diamond_bomb": "Diamond Bomb",
+  "block.pindev.uran_bomb": "Uran Bomb"
 }

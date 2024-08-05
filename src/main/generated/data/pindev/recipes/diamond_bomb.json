@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "S": {
+      "item": "pindev:steel_ingot"
+    }
+  },
+  "pattern": [
+    "GCG",
+    "CSC",
+    "GCG"
+  ],
+  "result": {
+    "item": "pindev:diamond_bomb"
+  },
+  "show_notification": true
+}

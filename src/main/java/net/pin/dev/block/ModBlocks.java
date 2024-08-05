@@ -32,6 +32,15 @@ public class ModBlocks {
     public static final Block ENDSTONE_STEEL_ORE = registerBlock("endstone_steel_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(2f)));
 
+    public static final Block COPPERBOMB = registerBlock("copper_bomb",
+            new CopperBombBlock(FabricBlockSettings.copyOf(Blocks.TNT)));
+
+    public static final Block DIAMONDBOMB = registerBlock("diamond_bomb",
+            new DiamondBombBlock(FabricBlockSettings.copyOf(Blocks.TNT)));
+
+    public static final Block URANBOMB = registerBlock("uran_bomb",
+            new UranBombBlock(FabricBlockSettings.copyOf(Blocks.TNT)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(PinDev.MOD_ID, name), block);

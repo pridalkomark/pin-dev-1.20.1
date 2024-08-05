@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.pin.dev.block.ModBlocks;
 import net.pin.dev.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -40,4 +41,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.INDIANMUSICDISK, Models.GENERATED);
 
     }
+
+    /*public void generateBlockState(BlockStateModelGenerator blockStateModelGenerator) {
+        blockStateModelGenerator.registerLog(ModBlocks.COPPERBOMB)
+    }*/
 }

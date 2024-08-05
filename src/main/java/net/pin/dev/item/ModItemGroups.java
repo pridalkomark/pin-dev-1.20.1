@@ -46,6 +46,10 @@ public class ModItemGroups {
 
                         entries.add(ModItems.AIRCOMPRESSOR);
 
+                        entries.add(ModBlocks.COPPERBOMB);
+                        entries.add(ModBlocks.DIAMONDBOMB);
+                        entries.add(ModBlocks.URANBOMB);
+
                         //entries.add(ModItems.INDIANMUSICDISK);
 
 

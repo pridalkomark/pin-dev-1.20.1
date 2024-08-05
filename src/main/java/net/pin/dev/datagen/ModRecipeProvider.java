@@ -123,6 +123,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEELCAN), conditionsFromItem(ModItems.STEELCAN))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.AIRCOMPRESSOR)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.COPPERBOMB, 1)
+                .pattern("GCG")
+                .pattern("CSC")
+                .pattern("GCG")
+                .input('G', Items.GUNPOWDER)
+                .input('C', Items.COPPER_BLOCK)
+                .input('S', Items.TNT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.COPPERBOMB)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DIAMONDBOMB, 1)
+                .pattern("GCG")
+                .pattern("CSC")
+                .pattern("GCG")
+                .input('G', Items.GUNPOWDER)
+                .input('C', Items.DIAMOND)
+                .input('S', ModItems.STEELINGOT)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DIAMONDBOMB)));
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_DINO, 3)
                 .input(Items.CHICKEN)
                 .criterion(hasItem(Items.PORKCHOP), conditionsFromItem(Items.PORKCHOP))
