@@ -52,7 +52,18 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.URANINITEORE);
 
+                        entries.add(ModBlocks.YELLOWBRICK);
+                        entries.add(ModBlocks.BLUEBRICK);
+                        entries.add(ModBlocks.PURPLEBRICK);
+                        entries.add(ModBlocks.GREENBRICK);
+
+                        entries.add(ModBlocks.BUSH);
+
                         entries.add(ModItems.URAN);
+
+                        entries.add(ModItems.ADRENALINESHOT);
+
+                        entries.add(ModItems.POIDONDAGGER);
 
                         //entries.add(ModItems.INDIANMUSICDISK);
 

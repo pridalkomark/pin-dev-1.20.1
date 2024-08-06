@@ -40,5 +40,16 @@
 
   "block.pindev.uraninite_ore": "Uraninite Ore",
 
-  "effect.pindev.death": "Death"
+  "block.pindev.yellow_brick": "Yellow Brik",
+  "block.pindev.blue_brick": "Blue Brik",
+  "block.pindev.green_brick": "Green Brik",
+  "block.pindev.purple_brick": "Purple Brik",
+
+  "effect.pindev.death": "Death",
+
+  "block.pindev.bush": "Bush",
+
+  "item.pindev.shroom": "Them good Shroomzz",
+
+  "item.pindev.poison_dagger": "The Poison Dagger"
 }

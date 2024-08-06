@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.PlantBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -43,6 +44,21 @@ public class ModBlocks {
 
     public static final Block URANINITEORE = registerBlock("uraninite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(4f)));
+
+    public static final Block YELLOWBRICK = registerBlock("yellow_brick",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).strength(2f)));
+
+    public static final Block BLUEBRICK = registerBlock("blue_brick",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).strength(2f)));
+
+    public static final Block GREENBRICK = registerBlock("green_brick",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).strength(2f)));
+
+    public static final Block PURPLEBRICK = registerBlock("purple_brick",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).strength(2f)));
+
+    public static final Block BUSH = registerBlock("bush",
+            new PlantBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

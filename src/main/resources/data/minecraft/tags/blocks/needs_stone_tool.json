@@ -2,6 +2,10 @@
   "replace" : false,
   "values" : [
     "pindev:raw_steel_block",
-    "pindev:steel_ore"
+    "pindev:steel_ore",
+    "pindev:yellow_brick",
+    "pindev:green_brick",
+    "pindev:purple_brick",
+    "pindev:blue_brick"
   ]
 }

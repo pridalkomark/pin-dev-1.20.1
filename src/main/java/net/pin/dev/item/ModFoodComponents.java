@@ -16,6 +16,16 @@ public class ModFoodComponents {
             .alwaysEdible()
             .build();
 
+    public static final FoodComponent ADRENALINE = new FoodComponent.Builder().hunger(8).saturationModifier(0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 1), 1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 500, 1), 1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 600, 0), 0.9F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 900, 0), 0.8F)
+            .alwaysEdible()
+            //.statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 1200, 100), 0.9F)
+            //.statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 1200, 0), 0.9F)
+            .build();
+
     public static final FoodComponent DINO = new FoodComponent.Builder().hunger(4).saturationModifier(0.25f)
             .build();
 }

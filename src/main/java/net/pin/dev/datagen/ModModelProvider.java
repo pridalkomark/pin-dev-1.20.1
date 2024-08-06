@@ -42,6 +42,10 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.URAN, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.ADRENALINESHOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.POIDONDAGGER, Models.GENERATED);
+
     }
 
     /*public void generateBlockState(BlockStateModelGenerator blockStateModelGenerator) {

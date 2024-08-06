@@ -9,7 +9,8 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
     STEEL(MiningLevels.DIAMOND, 800, 4f, 0f, 26, () -> Ingredient.ofItems(ModItems.STEELINGOT)),
-    COPPER(MiningLevels.STONE, 300, 1f, 0f, 16, () -> Ingredient.ofItems(Items.COPPER_INGOT))
+    COPPER(MiningLevels.STONE, 300, 1f, 0f, 16, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    BLANK(MiningLevels.HAND, 50, 1f, 0f, 0, () -> Ingredient.ofItems(Items.AIR))
     ;
 
     private final int miningLevel;

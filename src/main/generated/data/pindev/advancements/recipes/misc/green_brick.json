@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:green_brick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_uran": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pindev:uran"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_uran",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:green_brick"
+    ]
+  },
+  "sends_telemetry_event": false
+}

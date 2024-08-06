@@ -2,6 +2,7 @@ package net.pin.dev.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.CookingRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
@@ -12,6 +13,8 @@ import net.minecraft.recipe.book.RecipeCategory;
 import java.util.List;
 import java.util.function.Consumer;
 
+import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.pin.dev.block.ModBlocks;
 import net.pin.dev.item.ModItems;
@@ -147,6 +150,48 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.CHICKEN)
                 .criterion(hasItem(Items.PORKCHOP), conditionsFromItem(Items.PORKCHOP))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_DINO)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.BLUEBRICK, 1)
+                .input(Items.BLUE_DYE)
+                .input(Blocks.BRICKS)
+                .criterion(hasItem(Items.BLUE_DYE), conditionsFromItem(Items.BLUE_DYE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BLUEBRICK)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.YELLOWBRICK, 1)
+                .input(Items.YELLOW_DYE)
+                .input(Blocks.BRICKS)
+            .criterion(hasItem(Items.YELLOW_DYE), conditionsFromItem(Items.YELLOW_DYE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.YELLOWBRICK)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PURPLEBRICK, 1)
+                .input(Items.PURPLE_DYE)
+                .input(Blocks.BRICKS)
+                .criterion(hasItem(Items.PURPLE_DYE), conditionsFromItem(Items.PURPLE_DYE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURPLEBRICK)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.GREENBRICK, 1)
+                .input(ModItems.URAN)
+                .input(Blocks.BRICKS)
+                .criterion(hasItem(ModItems.URAN), conditionsFromItem(ModItems.URAN))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GREENBRICK)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.BUSH, 1)
+                .input(Items.BONE_MEAL)
+                .input(ItemTags.SAPLINGS)
+                .criterion(hasItem(ModItems.URAN), conditionsFromItem(ModItems.URAN))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BUSH)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADRENALINESHOT, 2)
+                .input(Items.RED_MUSHROOM)
+                .input(Items.BROWN_MUSHROOM)
+                .criterion(hasItem(Items.RED_MUSHROOM), conditionsFromItem(Items.RED_MUSHROOM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADRENALINESHOT)));
+
+    ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.POIDONDAGGER, 1)
+                .input(ModItems.STEELSWORD)
+                .input(Items.SPIDER_EYE)
+                .criterion(hasItem(ModItems.STEELSWORD), conditionsFromItem(ModItems.STEELSWORD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.POIDONDAGGER)));
 
         offerSmelting(exporter, List.of(ModItems.RAW_DINO), RecipeCategory.FOOD, ModItems.DINO, 3f, 80, "dino");
 

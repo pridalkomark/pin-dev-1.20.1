@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.pin.dev.PinDev;
 import net.pin.dev.item.custom.AirCompressorItem;
+import net.pin.dev.item.custom.PoisonDaggerItem;
 import net.pin.dev.sound.ModSounds;
 
 public class ModItems {
@@ -24,7 +25,11 @@ public class ModItems {
     public static final Item STEELCAN = registerItem("steel_can", new Item(new FabricItemSettings()));
     public static final Item STUFFEDCAN = registerItem("stuffed_can", new Item(new FabricItemSettings().food(ModFoodComponents.STUFFEDCAN).maxCount(1)));
     public static final Item DINO = registerItem("dino", new Item(new FabricItemSettings().food(ModFoodComponents.DINO)));
-    public static final Item RAW_DINO = registerItem("raw_dino", new Item(new FabricItemSettings().food(FoodComponents.ROTTEN_FLESH)));
+    public static final Item RAW_DINO = registerItem("raw_dino", new PotionItem(new FabricItemSettings().food(FoodComponents.ROTTEN_FLESH)));
+
+    public static final Item ADRENALINESHOT = registerItem("shroom", new Item(new FabricItemSettings().food(ModFoodComponents.ADRENALINE).maxCount(8)));
+
+    public static final Item POIDONDAGGER = registerItem("poison_dagger", new PoisonDaggerItem(new FabricItemSettings().maxCount(1).maxDamage(40)));
 
     public static final Item STEELPICKAXE = registerItem("steel_pickaxe", new PickaxeItem(ModToolMaterial.STEEL, 3, 1f, new FabricItemSettings()));
     public static final Item STEELSHOVEL = registerItem("steel_shovel", new ShovelItem(ModToolMaterial.STEEL, 4, 1.1f, new FabricItemSettings()));
